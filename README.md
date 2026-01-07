@@ -7,9 +7,9 @@
 - Payments: Stripe
 
 ## Project Structure
-- admin-panel/ → Admin dashboard
-- user-panel/ → User-facing website
-- api/ → Backend API
+- Admin-panel/ → Admin dashboard
+- User-panel/ → User-facing website
+- Api/ → Backend API
 
 ## How to Run
 See individual folders for setup instructions.
