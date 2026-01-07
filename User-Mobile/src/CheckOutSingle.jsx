@@ -52,7 +52,7 @@ const CheckOutSingle = () => {
         country: country,
         zipCode: zipCode,
       }
-      const stripe = await loadStripe('pk_test_51SPd2u0Ritb203vFIkiw26uD7bkXPDv5vlFV6GkR4gheVLUkNT44Q9MBcNthQYtertDTVH5cDAD80oU379D3c1kE00jUcpsRcD')
+      const stripe = await loadStripe(import.meta.env.VITE_STRIPE_Public_KEY)
       let tokenSend = 'Bearer' + ' ' + localStorage.getItem('token')
       const headers = {
         'Content-Type': 'application/json',
