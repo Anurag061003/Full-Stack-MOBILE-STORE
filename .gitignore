@@ -1,3 +1,11 @@
-# env files
+# Env files
 .env
-**/.env
+.env.*
+
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+.vite/
